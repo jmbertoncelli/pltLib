@@ -1,5 +1,6 @@
 name: pltLib
 channels:
+  - jmbertoncelli 
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
@@ -39,5 +40,5 @@ dependencies:
       - inflection==0.5.1
       - pyyaml==6.0.1
       - requests==2.31.0
-      - streamsets==6.2.0
+      - streamsets
       - urllib3==2.2.1

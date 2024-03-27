@@ -22,6 +22,6 @@ classifiers = [
 ]
 dependencies = [
     'cryptography>=42.0.5',
-    'streamsets>=6.2.0',
+    'streamsets',
     'chardet>=4.0.0'
 ]

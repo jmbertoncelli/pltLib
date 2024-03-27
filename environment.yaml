@@ -1,44 +1,70 @@
 name: pltLib
 channels:
-  - jmbertoncelli 
+  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
-  - _openmp_mutex=5.1
+  - _openmp_mutex=4.5
+  - beautifulsoup4=4.12.3
+  - brotli-python=1.0.9
   - ca-certificates=2024.3.11
+  - certifi=2024.2.2
   - cffi=1.16.0
   - chardet=4.0.0
+  - charset-normalizer=3.3.2
+  - colorama=0.4.6
+  - conda-souschef=2.2.3
   - cryptography=42.0.5
   - exceptiongroup=1.2.0
+  - grayskull=2.5.3
+  - idna=3.6
   - iniconfig=1.1.1
   - ld_impl_linux-64=2.38
+  - libblas=3.9.0
+  - libcblas=3.9.0
   - libffi=3.4.4
-  - libgcc-ng=11.2.0
-  - libgomp=11.2.0
+  - libgcc-ng=13.2.0
+  - libgfortran-ng=13.2.0
+  - libgfortran5=13.2.0
+  - libgomp=13.2.0
+  - liblapack=3.9.0
+  - libopenblas=0.3.26
   - libstdcxx-ng=11.2.0
   - ncurses=6.4
-  - openssl=3.0.13
+  - numpy=1.22.3
+  - openssl=3.2.1
   - packaging=23.2
   - pip=23.3.1
+  - pkginfo=1.10.0
   - pluggy=1.0.0
+  - progressbar2=4.4.2
   - pycparser=2.21
+  - pysocks=1.7.1
   - pytest=7.4.0
   - python=3.8.19
+  - python-utils=3.8.2
+  - python_abi=3.8
+  - rapidfuzz=3.5.2
   - readline=8.2
+  - requests=2.31.0
+  - ruamel.yaml=0.18.6
+  - ruamel.yaml.clib=0.2.8
+  - ruamel.yaml.jinja2=0.2.4
+  - semver=3.0.2
   - setuptools=68.2.2
+  - soupsieve=2.5
   - sqlite=3.41.2
+  - stdlib-list=0.10.0
   - tk=8.6.12
   - tomli=2.0.1
+  - tomli-w=1.0.0
+  - typing_extensions=4.10.0
+  - urllib3=2.2.1
   - wheel=0.41.2
   - xz=5.4.6
   - zlib=1.2.13
   - pip:
-      - certifi==2024.2.2
-      - charset-normalizer==3.3.2
       - dpath==1.5.0
-      - idna==3.6
       - inflection==0.5.1
       - pyyaml==6.0.1
-      - requests==2.31.0
-      - streamsets
-      - urllib3==2.2.1
+      - streamsets==6.2.0
